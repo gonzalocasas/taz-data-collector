@@ -1,0 +1,21 @@
+{
+  "name": "taz-data-collector",
+  "version": "1.0.0",
+  "description": "Collects data from TAZ devices via the TTN MQTT interface and stores them into a database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalocasas/taz-data-collector.git"
+  },
+  "author": "Gonzalo Casas <gonzalocasas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.131.0",
+    "dotenv": "^4.0.0",
+    "micro": "^9.0.0",
+    "ttn": "^2.2.6"
+  }
+}
