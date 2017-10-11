@@ -1,6 +1,6 @@
 {
   "env": {
-  	"TTN_APP_ID": "taz_app",
+    "TTN_APP_ID": "taz_app",
     "TTN_ACCESS_KEY": "@ttn-access-key",
     "AWS_REGION": "eu-central-1",
     "AWS_ACCESS_KEY_ID": "@aws-access-key-id",
