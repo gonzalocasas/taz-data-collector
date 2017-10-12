@@ -1,11 +1,12 @@
+const util = require('util')
 const AWS = require('aws-sdk')
 
-const switches = [0, 1, 2, 3];
+const switches = [0, 1, 2, 3]
 const buildQueryParams = (devID) => ({
-    TableName: 'devices',
-    Key: {
-        device_name: devID
-    }
+  TableName: 'devices',
+  Key: {
+    device_name: devID
+  }
 })
 
 const buildMessagesParams = (devID, payload) => {
