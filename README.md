@@ -10,7 +10,7 @@ Micro-service that connects to an MQTT data stream of [The Things Network](https
 
 Make sure you have [Node.js 8.x+](https://nodejs.org/en/) installed on your system.
 
-## Installation
+### Installation
 
 Open your terminal, go to the project's folder and run:
 
@@ -26,7 +26,7 @@ Create a file named `node-secrets.json` at the top level of this project and ent
 
 That's it! You're now ready to start the service.
 
-## Usage
+### Usage
 
 Starting the service is as simple as running the following:
 
