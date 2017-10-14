@@ -101,6 +101,17 @@ Keeps an append-only historical record of all messages sent from devices into th
 | cumulative_switch_2 | Rolling over counter of switch *#2* presses since last transmitted, represented as 1 byte (`0-255`) |
 | cumulative_switch_3 | Rolling over counter of switch *#3* presses since last transmitted, represented as 1 byte (`0-255`) |
 
+## Switch mapping
+
+The mapping between switch number and switch color is the following in the current setup:
+
+| Switch # | Switch color |
+| --- | --- |
+| `0` | red |
+| `1` | orange |
+| `2` | yellow |
+| `3` | green |
+
 ## License
 
 This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
