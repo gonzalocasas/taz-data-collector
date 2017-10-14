@@ -1,3 +1,5 @@
+[Embedded](https://github.com/berkutta/lora_happy_buttons_embedded/) | **Backend/Data collection** | [Frontend/Dashboard](https://github.com/gonzalocasas/taz-dashboard)
+
 # Feedback Buttons: Data collector microservice
 
 > Collect data from Feedback Buttons from MQTT into DynamoDB aggregated tables
