@@ -20,7 +20,7 @@ Open your terminal, go to the project's folder and run:
 
     npm install
 
-Create a file named `now-secrets.json` at the top level of this project and enter the secrets  (values starting with the `@`) from the `now.json` file. Example :
+Create a file named `now-secrets.json` at the top level of this project and enter the secrets  (values starting with the `@`) from the `now.json` file. Example:
 
     {
       "@ttn-access-key": "ttn-account-v2.oioioioioioi",
